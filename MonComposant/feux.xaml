@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="MonComposant.feux"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MonComposant"
+             mc:Ignorable="d" Width="96.386" Height="181.928">
+    <Canvas x:Name="ucroot" Margin="0,0,196,0">
+    <Button x:Name="bRed" Content="" Canvas.Left="10" Canvas.Top="10" Width="75" Height="53" Background="LightGray" Click="bRed_Click"/>
+    <Button x:Name="bOrange" Content="" Canvas.Left="10" Canvas.Top="68" Width="75" Height="53" Background="LightGray" Click="bOrange_Click"/>
+    <Button x:Name="bGreen" Content="" Canvas.Left="10" Canvas.Top="126" Width="75" Height="53" Background="LightGray" Click="bGreen_Click"/>
+    </Canvas>
+</UserControl>
